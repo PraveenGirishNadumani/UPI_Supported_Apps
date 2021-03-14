@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:baselineAlignBottom="true"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="10dp"
+        android:paddingTop="50px"
+        android:text="Unknown"
+        android:textAlignment="center"
+        android:textColor="#3D96EC"
+        android:textSize="36sp" />
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#4B0082"-->
+<!--        android:id="@+id/textViewCapital"-->
+<!--        android:layout_row="1"-->
+<!--        android:layout_column="1" />-->
+</GridLayout>
